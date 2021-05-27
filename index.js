@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 const Router = axios.create({
     baseURL: 'https://api-airdady.herokuapp.com/api/v1',
     headers: {
@@ -25,4 +27,3 @@ const Router = axios.create({
   };
   
   export default client;
-  
